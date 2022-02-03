@@ -9,5 +9,7 @@ console.log();
 console.log('Private key: ', privateKey);
 
 console.log();
-console.log('Public key: ', publicKey);
+console.log('Public key (big): ', publicKey);
 
+console.log();
+console.log('Public key (shorten): ', publicKey.slice(-40));
